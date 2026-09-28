@@ -1,0 +1,238 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background-color: rgb(124, 31, 211);
+  font-size: 18px;
+}
+
+.inner-section{
+  background-color: white;
+  height: 40vw;
+  width: 94vw;
+  margin: 48px;
+  display: flex;
+  border-radius: 20px;
+}
+
+.Email-section{
+  height: 100%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.design-section{
+  background-image: url("https://images.pexels.com/photos/29586678/pexels-photo-29586678.jpeg");
+border-bottom-right-radius: 20px;
+border-top-right-radius: 20px;
+   height: 100%;
+  width: 50%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.name-section{
+   height: 3vw;
+  width: 20vw;
+  font-size: 20px;
+  border-radius: 24px;
+  border: none;
+   padding-left: 20px;
+}
+
+label{
+   padding-left: 20px;
+   line-height: 28px;
+}
+
+.email-section{
+  border-radius: 28px;
+  border: none;
+  height: 3vw;
+  width: 20vw;
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+.send-section{
+  cursor: pointer;
+  padding: 12px 140px;
+  margin-top: 32px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 24px;
+  border: none;
+  background-color: rgb(124, 31, 211);
+  color: aliceblue;
+  transition: 0.2s;
+}
+
+.send-section:active {
+  background-color: rgb(199, 191, 191,0.8);
+  color: black;
+}
+
+.defe{
+  background-color: rgba(138, 135, 135, 0.2);
+  height: 460px;
+  width: 400px;
+  justify-content: space-between;
+  border-radius: 40px;
+  padding-left: 60px;
+}
+
+.heading{
+  text-align: center;
+  line-height: 60px;
+}
+
+.message-section{
+   height: 6vw;
+  width: 20vw;
+  font-size: 20px;
+   padding-left: 10px;
+
+}
+
+.design-section{
+  color: aliceblue;
+  text-align: center;
+  
+  
+}
+
+h2{
+  font-size: 80px;
+  margin-top: 100px;
+}
+
+p{
+  font-size: 24px;
+}
+
+.logo{
+  height: 80px;
+  width: 220px;
+  padding-left: 88px;
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  body {
+    background-color: lightblue;
+  }
+  .inner-section{
+     flex-direction: column;
+     height: 160vw;
+     width: 86vw;
+  }
+  h2{
+  font-size: 60px;
+  margin-top: 100px;
+  }
+  .defe{
+    width: 72vw;
+    height: 68vw;
+    margin-left: 42vw;
+    margin-top: 8vw;
+  }
+
+  .email-section,.name-section,.message-section,.send-section{
+    width: 40vw;
+  }
+
+  .email-section,.name-section{
+  height: 6vw;
+  width: 60vw;
+  font-size: 20px;
+  border-radius: 24px;
+  border: none;
+  padding-left: 20px; 
+  }
+
+  .send-section{
+    height: 6vw;
+  width: 60vw;
+  }
+
+  .message-section{
+     height: 12vw;
+  width: 60vw;
+
+  }
+
+
+  .design-section{
+    width: 86vw;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 0px;
+  }
+
+  .logo{
+    height: 12vw;
+    width: 28vw;
+    margin-left: 50vw;
+  }
+}
+
+@media screen and (max-width: 500px) {
+ body {
+    background-color: white;
+  }
+
+   h2{
+  font-size: 40px;
+  margin-top: 100px;
+  }
+
+  .defe{
+    width: 72vw;
+    height: 88vw;
+    margin-left: 36vw;
+    margin-top: 8vw;
+  }
+  .email-section,.name-section{
+  height: 8vw;
+  width: 60vw;
+  font-size: 20px;
+  border-radius: 24px;
+  border: none;
+  padding-left: 20px; 
+  }
+
+  .send-section{
+    height: 8vw;
+  width: 60vw;
+  text-align: center;
+  padding-left: 34%;
+  }
+
+  .message-section{
+     height: 14vw;
+  width: 60vw;
+  }
+
+  p{
+  font-size: 22px;
+}
+
+a{
+  text-align: center;
+  font-size: 16px;
+}
+
+.design-section{
+   width: 88vw;
+   height: 340px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+
+}
+
+
+}
